@@ -3,6 +3,11 @@ body {
   
 }
 
+#title{
+	margin-bottom: 15px;
+	color: red;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -10,4 +15,26 @@ body {
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
 	background-color: red;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.center{
+	text-align: center;
+}
+
+.middletext{
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+}
+
+.bottomborder{
+	border-bottom: solid black 1px;
 }
